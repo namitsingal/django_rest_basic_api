@@ -1,0 +1,14 @@
+==================Instructions=================
+
+========INSTALLATION============
+
+Pre Requisite on System : 
+- Python-pip
+- virtualEnv - sudo pip install virtualenv
+
+make setup
+
+============= Running the server ===============
+make run
+
+
