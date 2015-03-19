@@ -22,10 +22,11 @@ make run
 
 - To View all items : "curl -X GET http://www.namitsingal.com/api/items/?format=json"
 - To View Items with some filters : curl -X GET  "http://www.namitsingal.com/api/items/?year=2007-08&min_revenue=20000&max_revenue=60000&format=json"
-- To Get a particular Item Based on its ID : curl -X GET "http://www.namitsingal.com/api/items/1/&format=json"
+- To Get a particular Item Based on its ID : curl -X GET "http://www.namitsingal.com/api/items/1/?format=json"
 - To Update a particular item based on its ID: curl -X PUT  "http://www.namitsingal.com/api/items/1/" -d "item_type=Consumer Electronics1&year=2007-08&revenue=22601"
 - To Delete a particular Value based on its ID: curl -X DELETE "http://www.namitsingal.com/api/items/55/"
 
 you can filter based on item_type, year, revenue, min_revenue, max_revenue
+If you remove format=json, it will also show up a UI which comes default with django-rest framework
 
 To View Admin Page : http://namitsingal.com/admin/
